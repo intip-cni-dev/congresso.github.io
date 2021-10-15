@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congresso de Inovação - Programação</title>
+    <link rel="stylesheet" href="assets/dist/css/style.css">
+    <link rel="stylesheet" href="assets/dist/css/mobile.css">
+    <link rel="stylesheet" href="assets/dist/css/glider.min.css">
+</head>
+
+<body>
+    <div class="container-fluid py-3 container-cover">
+        <div class="container">
+            <!-- Logo e Menu -->
+            <div class="row cover-navbar align-items-center">
+                <div class="col-lg-3 col-6">
+                    <a href="/">
+                        <picture>
+                            <source srcset="./assets/dist/images/logo-nono-congresso-brasileiro-de-inovacao-da-industria.webp" type="image/webp">
+                            <img src="./assets/dist/images/logo-nono-congresso-brasileiro-de-inovacao-da-industria.png" alt="Logo Congresso Brasileiro de Inovação da Industria">
+                        </picture>
+                    </a>
+                </div>
+                <div class="col-lg-9 col-6 p-0">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <div class="container-fluid justify-content-end">
+                            <a href="#" class="navbar-lang d-lg-none">
+                                <span>EN</span>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                            <div class="collapse navbar-collapse justify-content-end">
+                                <ul class="navbar-nav align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="/programacao.html">Programação</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/o-congresso.html">O congresso</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/premio-de-inovacao.html">Prêmio de Inovação</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/realizadores.html">Parceiros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="separator"></span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">EN</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end pt-5" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Programação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/o-congresso.html">O congresso</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/premio-de-inovacao.html">Prêmio de Inovação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/realizadores.html">Parceiros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-12">
+                    <h2 class="text-center transparent py-5">Programação</h2>
+                </div>
+            </div>
+            <div class="row py-5 w-75 mx-auto programacao-checkbox">
+                <div class="col-12 col-md-6 pb-4">
+                    <form class="d-flex justify-content-md-start justify-content-center">
+                        <div class="form-check form-check-inline checked">
+                            <input class="form-check-input" type="radio" name="checkbox-day" id="checkbox-day-1" value="day-1" checked>
+                            <label class="form-check-label" for="checkbox-day-1">09/03</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="checkbox-day" id="id-checkbox-day-2" value="day-2">
+                            <label class="form-check-label" for="id-checkbox-day-2">10/03</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form class="d-flex justify-content-md-end justify-content-center">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="checkbox-type" id="id-checkbox-type-virtual" value="virtual" checked>
+                            <label class="form-check-label" for="id-checkbox-type-virtual">Virtual</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="checkbox-type" id="id-checkbox-type-presential" value="presential">
+                            <label class="form-check-label" for="id-checkbox-type-presential">Presencial</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row programacao-items">
+                <div class="col-12" style="overflow-x: auto; overflow-y: clip;">
+                    <ul class="nav nav-tabs justify-content-stretch flex-nowrap" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Arena principal</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Espaço talks</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Cine inovação</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Loung CNI/MEI</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Ecossistema de inovação</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Loung SENAI</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Lounge SESI</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Lounge IEL</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Stand Sebrae</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Saiba mais -->
+    <div class="container-fluid saiba-mais mt-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-12 align-middle">
+                    <p class="m-0 text-disabled">Quer saber o que aconteceu nas edições passadas? Confira:</p>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <a href="#">Edição de 2019</a>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <a href="#">Edição de 2017</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- scripts -->
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- checkbox -->
+    <script>
+        const filterByDay = (day) => {
+            console.log(`filtrando por dia ${day}`)
+        };
+
+        const filterByType = (type) => {
+            console.log(`filtrando por tipo ${type}`)
+        };
+
+        [].forEach.call(document.querySelectorAll('.programacao-checkbox [name=checkbox-day]'), function(input) {
+            input.addEventListener("click", function(event) {
+                filterByDay(event.target.value)
+            });
+        });
+
+        [].forEach.call(document.querySelectorAll('.programacao-checkbox [name=checkbox-type]'), function(input) {
+            input.addEventListener("click", function(event) {
+                filterByType(event.target.value)
+            })
+        })
+    </script>
+    <!-- after all scripts -->
+    <script src="assets/dist/js/global.js"></script>
+
+</body>
+
+</html>

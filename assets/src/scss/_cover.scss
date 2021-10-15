@@ -1,0 +1,75 @@
+.container-cover {
+    min-height: 880px;
+    padding-top: 40px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -50px;
+    background-image: url(../images/fundo-congresso-brasileiro-de-inovacao-da-industria.png);
+    h1 {
+        margin-bottom: 24px;
+    }
+    .cover-info-subtitle {
+        margin-bottom: 40px;
+    }
+    .cover-info-date {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        font-weight: 600;
+        font-size: 24px;
+        align-items: center;
+        i {
+            width: 27px;
+            height: 26px;
+        }
+        time {
+            margin-left: 16px;
+            width: 280px;
+        }
+    }
+    .cover-navbar {
+        picture {
+            display: flex;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .cover-info-background {
+        position: relative;
+        img {
+            display: flex;
+            position: absolute;
+            top: calc(-30%);
+            right: -60px;
+            pointer-events: none;
+            z-index: 5;
+        }
+    }
+    .cover-video-background {
+        background-image: url(../images/fundo-video-congresso-de-inovacao.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 240px;
+    }
+    .cover-infos {
+        margin-top: 100px;
+        height: 100%;
+    }
+    .cover-info {
+        z-index: 10;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .container-header {
+        padding-top: 0 !important;
+    }
+    .container-cover {
+        background-size: 300%;
+        background-position-x: -228px;
+        background-position-y: -50px;
+        min-height: auto;
+    }
+}

@@ -1,0 +1,31 @@
+.icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-position: center;
+    
+    &.icon-calendar {
+        background-image: url(../images/icones/calendario.png);
+        width: 27px;
+        height: 26px;
+    }
+
+    &.icon-maos {
+        background-image: url(../images/icones/maos.png);
+        width: 48px;
+        height: 29px;
+    }
+
+    &.icon-pessoas {
+        background-image: url(../images/icones/pessoas.png);
+        width: 58px;
+        height: 59px;
+    }
+
+    &.icon-player {
+        background-image: url(../images/icones/player.png);
+        width: 64px;
+        height: 68px;
+    }
+}

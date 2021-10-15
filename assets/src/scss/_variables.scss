@@ -1,0 +1,36 @@
+$font-family-sans-serif: 'Montserrat',
+sans-serif;
+$white: #ffffff;
+$bg-color: #0F071C;
+$body-bg: $bg-color !default;
+$body-color: $white !default;
+$nav-link-color: rgba(255, 255, 255, 1) !default;
+$nav-link-hover-color: rgba(255, 255, 255, 0.5) !default;
+$navbar-dark-toggler-border-color: rgba(#000, 0);
+$navbar-dark-color: rgba($white, 1) !default;
+$navbar-dark-hover-color: ba($white, 1) !default;
+// accordion
+$accordion-button-active-bg: transparent;
+$accordion-button-color: #ff5f6d;
+$accordion-button-active-color: #ff5f6d;
+$accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16' fill-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2' xmlns:v='https://vecta.io/nano'><g transform='matrix(1 0 0 1.06667 0 0)'><clipPath id='A'><path d='M15.14 9.33H9.92v5.1H6.05v-5.1H.86V5.67h5.19V.57h3.87v5.1h5.22v3.66z'/></clipPath><g clip-path='url(#A)'><g transform='matrix(1 0 0 .9375 0 0)'><use xlink:href='#B' x='.903' y='.617' width='14.28' height='14.784' transform='scale(.952 .9856)'/></g></g></g><defs><image id='B' width='15' height='15' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAdUlEQVQokZWSSQ7AMAgDx85/e+3z00NVNRsKOSBhJMyEoHpfFQOlCQNFTc6cl1eCmgCQ+toXbrXw3JjXjp33RovJCWTGySfI1gL70GhoVoi40t4jxjsJ/jlhJPBf0NnSpsnbt6rT8YUlDsZp5MXB7LcdICN4AFA3A+kUtiFzAAAAAElFTkSuQmCC'/></defs></svg>");
+$accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16' fill-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2' xmlns:v='https://vecta.io/nano'><clipPath id='A'><path d='M.86 6.125h14.28v3.75H.86z'/></clipPath><g clip-path='url(#A)'><use xlink:href='#B' x='.903' y='6.533' width='14.28' height='3.75' transform='matrix(.952 0 0 .9375 0 0)'/></g><defs><image id='B' width='15' height='4' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAECAYAAABREWWJAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAPUlEQVQImX2OQQoAIAgEx+2/faGn10FBQusgg6Oy2l5zI0DAsCA3i/M9YfAsgmpmch3C6lHXk/wnt19kyAHx7QNB+yPN6QAAAABJRU5ErkJggg=='/></defs></svg>");
+//
+$container-max-widths: ( sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px,
+xxl: 1456px);
+// checkbox
+$form-check-input-bg: unset;
+$form-check-input-border: 2px solid rgba(#FF5F6D,
+1);
+// $form-check-input-border-radius : .25em;
+// $form-check-radio-border-radius : 50%;
+$form-check-input-focus-border: tint-color(red,
+50%) !default;
+;
+// $form-check-input-focus-box-shadow : $input-btn-focus-box-shadow;
+$form-check-input-checked-color: #FF5F6D;
+$form-check-input-checked-bg-color: unset;
+$form-check-input-checked-border-color: #FF5F6D;

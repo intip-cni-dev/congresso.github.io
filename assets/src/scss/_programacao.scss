@@ -1,0 +1,33 @@
+.programacao-checkbox {
+    .form-check {
+        font-size: 33px;
+        font-weight: bold;
+        color: #D0d0d0;
+        &.checked {
+            background: linear-gradient(135deg, #FF5F6D 2.88%, #FFC371 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+
+.programacao-items {
+    .nav-tabs {
+        // border-bottom: 2px solid rgba(#989898, 0.3) !important;
+        border: none !important;
+        .nav-link {
+            background-color: transparent !important;
+            border-radius: 0 !important;
+            color: #D0D0D0 !important;
+            font-weight: 600;
+            font-size: 16px;
+            min-width: max-content;
+            border: none !important;
+            border-bottom: 2px solid rgba(#989898, 0.3) !important;
+            &.active {
+                border-bottom: 2px solid #FF5F6D !important;
+                color: white !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.container-realizadores {
+    .realizadores-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        margin: 0 !important;
+        img {
+            max-width: 100%;
+        }
+    }
+}

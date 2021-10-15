@@ -1,0 +1,83 @@
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-weight: 300 !important;
+        font-size: 40px !important;
+        line-height: 120% !important;
+    }
+    h2 {
+        font-size: 42px !important;
+    }
+    h4 {
+        font-size: 28px !important;
+    }
+    p {
+        font-size: 16px !important;
+    }
+    .btn-primary,
+    .btn-outline-primary {
+        padding: 16px 16px !important;
+        font-size: 16px !important;
+    }
+    .container-cover .cover-infos {
+        margin-top: 0 !important;
+    }
+    .accordion .accordion-button {
+        font-size: 18px;
+    }
+    .container-speakers {
+        h2 {
+            font-size: 38px !important;
+        }
+        h3 {
+            font-size: 32px !important;
+        }
+        .speaker-item h3 {
+            font-size: 34px !important;
+        }
+        .speaker-item span {
+            font-size: 24px !important;
+        }
+        .speaker-item img {
+            width: 140px;
+            height: 140px;
+        }
+    }
+    .saiba-mais {
+        background-image: url('/assets/dist/images/fundo-saiba-mais-mobile.png');
+        background-size: cover;
+        background-position: unset;
+        .container .row {
+            padding-top: 50px;
+        }
+    }
+    .glider::-webkit-scrollbar {
+        height: 0 !important;
+    }
+    .text-apoio-institucional {
+        font-size: 26px !important;
+    }
+    .container-cover .cover-video-background {
+        background-image: url(../images/fundo-video-congresso-de-inovacao.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+        background-size: 112%;
+        height: 225px;
+    }
+    .programacao-checkbox {
+        width: 100% !important;
+        font-size: 30px !important;
+        [for='id-checkbox-type-virtual'],
+        [for='id-checkbox-type-presential'] {
+            font-size: 24px !important;
+        }
+    }
+    .programacao-items {
+        .overflow-auto {
+            height: 60px !important;
+        }
+        .nav-tabs {
+            border-bottom: none !important;
+        }
+    }
+}

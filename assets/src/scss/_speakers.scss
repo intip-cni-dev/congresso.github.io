@@ -1,0 +1,21 @@
+.container-speakers {
+    .speakers .speakers-item {
+        img {
+            border: 2px solid #ff816e;
+            margin-bottom: 35px;
+        }
+        h3 {
+            font-size: 40px;
+            line-height: 100%;
+            font-weight: normal;
+            background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        span {
+            font-size: 30px;
+            line-height: 160%;
+            color: #989898;
+        }
+    }
+}

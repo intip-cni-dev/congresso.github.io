@@ -1,0 +1,45 @@
+h1 {
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 54px !important;
+    line-height: 120% !important;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 62px !important;
+    line-height: 100% !important;
+    background: linear-gradient(135deg, hsl(355, 100%, 69%) 2.88%, #ffc371 100%);
+    color: $bg-color;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    margin-bottom: 25px !important;
+    &.white {
+        color: $white;
+        background: unset;
+    }
+    &.transparent {
+        color: transparent;
+        -webkit-text-stroke: 2px hsl(355, 100%, 69%);
+        background: unset !important;
+    }
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 32px !important;
+    line-height: 180%;
+}
+
+h5 {}
+
+h6 {}

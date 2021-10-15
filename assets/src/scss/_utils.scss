@@ -1,0 +1,82 @@
+p {
+    font-size: 18px;
+}
+
+.py-10 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+.px-6 {
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+}
+
+a:not(.btn, .nav-link) {
+    font-weight: normal !important;
+    font-size: 24px !important;
+    line-height: 200% !important;
+    text-decoration-line: underline;
+    color: #ffffff !important;
+}
+
+.text-disabled {
+    font-size: 18px;
+    line-height: 200%;
+    color: #989898;
+}
+
+.glider-dot {
+    background: #ffffff !important;
+    width: 16px;
+    height: 16px;
+    transition: all 0.25s ease;
+    &.active {
+        background: #ff816e !important;
+        width: 2rem;
+    }
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fs-32 {
+    font-size: 32px !important;
+}
+
+.fs-30 {
+    font-size: 30px !important;
+}
+
+.fs-28 {
+    font-size: 28px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.max-width-100 {
+    max-width: 100% !important;
+}
+
+.border-orange {
+    border: 2px solid #ff816e;
+}
+
+.mw-75 {
+    max-width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+    .mw-75 {
+        max-width: 100%;
+    }
+}
