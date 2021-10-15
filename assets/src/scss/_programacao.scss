@@ -23,7 +23,9 @@
             font-size: 16px;
             min-width: max-content;
             border: none !important;
-            border-bottom: 2px solid rgba(#989898, 0.3) !important;
+            &:not(.active) {
+                border-bottom: 2px solid rgba(#989898, 0.3) !important;
+            }
             &.active {
                 border-bottom: 2px solid #FF5F6D !important;
                 color: white !important;
