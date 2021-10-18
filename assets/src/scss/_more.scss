@@ -3,7 +3,8 @@
         padding-top: 100px;
         padding-bottom: 50px;
     }
-    background-image: url('/assets/dist/images/fundo-saiba-mais.png');
-    background-position: bottom;
+    // background-image: url('/assets/dist/images/fundo-saiba-mais.png');
     background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(15, 7, 28, 0.3) 86.51%, rgba(15, 7, 28, 0) 114.94%),
+    url('../images/fundo-saiba-mais.png');
 }

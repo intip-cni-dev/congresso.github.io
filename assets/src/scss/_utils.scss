@@ -69,6 +69,9 @@ a:not(.btn, .nav-link) {
 
 .border-orange {
     border: 2px solid #ff816e;
+    &.rounded-5 {
+        border-radius: 20px!important;
+    }
 }
 
 .mw-75 {
@@ -78,5 +81,11 @@ a:not(.btn, .nav-link) {
 @media only screen and (max-width: 600px) {
     .mw-75 {
         max-width: 100%;
+    }
+    .border-sm-orange {
+        border: 2px solid #ff816e;
+        &.rounded-5 {
+            border-radius: 20px!important;
+        }
     }
 }
