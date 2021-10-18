@@ -1,0 +1,81 @@
+.text-salmon {
+    color: #FF5F6D;
+}
+
+.text-yello {
+    color: #FFC271;
+}
+
+.text-dark {
+    color: #434343;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fs-36 {
+    font-size: 36px !important;
+}
+
+.fs-32 {
+    font-size: 32px !important;
+}
+
+.fs-30 {
+    font-size: 30px !important;
+}
+
+.fs-28 {
+    font-size: 28px !important;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.text-disabled {
+    font-size: 18px;
+    line-height: 200%;
+    color: #989898;
+}
+
+.lh-100 {
+    line-height: 100%;
+}
+
+.lh-120 {
+    line-height: 120%;
+}
+
+.lh-140 {
+    line-height: 140%;
+}
+
+.lh-160 {
+    line-height: 160%;
+}
+
+.lh-180 {
+    line-height: 180%;
+}
+
+.lh-200 {
+    line-height: 180%;
+}
+
+@media only screen and (max-width: 600px) {}

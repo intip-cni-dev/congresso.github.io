@@ -20,12 +20,6 @@ a:not(.btn, .nav-link) {
     color: #ffffff !important;
 }
 
-.text-disabled {
-    font-size: 18px;
-    line-height: 200%;
-    color: #989898;
-}
-
 .glider-dot {
     background: #ffffff !important;
     width: 16px;
@@ -35,32 +29,6 @@ a:not(.btn, .nav-link) {
         background: #ff816e !important;
         width: 2rem;
     }
-}
-
-.text-gradient {
-    background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.fs-32 {
-    font-size: 32px !important;
-}
-
-.fs-30 {
-    font-size: 30px !important;
-}
-
-.fs-28 {
-    font-size: 28px !important;
-}
-
-.fs-20 {
-    font-size: 20px !important;
-}
-
-.fs-18 {
-    font-size: 18px !important;
 }
 
 .max-width-100 {
@@ -88,4 +56,12 @@ a:not(.btn, .nav-link) {
             border-radius: 20px!important;
         }
     }
+}
+
+.rounded-default {
+    border-radius: 20px;
+}
+
+.max-content {
+    width: max-content;
 }
