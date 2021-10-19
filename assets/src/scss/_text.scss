@@ -2,7 +2,7 @@
     color: #FF5F6D;
 }
 
-.text-yello {
+.text-yellow {
     color: #FFC271;
 }
 
@@ -18,6 +18,10 @@
     background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.fs-40 {
+    font-size: 40px !important;
 }
 
 .fs-36 {
