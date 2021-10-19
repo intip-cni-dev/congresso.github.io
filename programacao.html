@@ -111,7 +111,7 @@
             </div>
             <div class="row programacao-items">
                 <div class="col-12 pb-2" style="overflow-x: auto; overflow-y: clip;">
-                    <ul class="nav nav-tabs justify-content-around flex-nowrap" id="myTab" role="tablist">
+                    <ul class="nav nav-tabs flex-nowrap" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Arena principal</button>
                         </li>
@@ -170,7 +170,7 @@
             </div>
 
             <div class="row">
-                <div class="col-12 pb-4">
+                <div class="col-12 pb-4" data-filter="day=day-1&type=virtual">
                     <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
                         <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
                             <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
@@ -187,7 +187,7 @@
                         </picture>
                     </div>
                 </div>
-                <div class="col-12 pb-4">
+                <div class="col-12 pb-4" data-filter="day=day-2&type=presential">
                     <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
                         <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
                             <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
@@ -203,7 +203,23 @@
                         </picture>
                     </div>
                 </div>
-                <div class="col-12 pb-4">
+                <div class="col-12 pb-4" data-filter="day=day-1&type=presential">
+                    <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                        <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                            <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                            <time class="max-content text-dark fw-600 fs-36">11:00 - 12:00</time>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center mx-lg-5">
+                            <strong class="text-salmon fw-600 lh-120 fs-32">Inovação que une o mundo</strong>
+                            <p class="pt-2">Evento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes.</p>
+                        </div>
+                        <picture>
+                            <!-- empty -->
+                            <div class="programacao-speakers-photos"></div>
+                        </picture>
+                    </div>
+                </div>
+                <div class="col-12 pb-4" data-filter="day=day-1&type=virtual">
                     <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
                         <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
                             <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
@@ -264,33 +280,54 @@
     <script src="assets/dist/js/bootstrap.bundle.min.js "></script>
     <!-- checkbox -->
     <script>
-        const filterByDay = (day) => {
-            console.log(`filtrando por dia ${day}`)
-        };
+        const state = {
+            day: 'day-1',
+            type: 'virtual'
+        }
 
-        const filterByType = (type) => {
-            console.log(`filtrando por tipo ${type}`)
-        };
+        const setState = (key, value, callback) => {
+            const oldState = state;
+            state[key] = value;
+            callback && callback({
+                oldState: oldState,
+                newState: state
+            });
+        }
 
-        const setSelected = (fieldName, value) => {
+        const filterBy = ({
+            newState
+        }) => {
+            const query = Object.entries(newState).map(e => `${e[0]}=${e[1]}`).join("&");
+            [].forEach.call(document.querySelectorAll('[data-filter]'), function(item) {
+                item.classList.add(item.dataset.filter === query ? 'd-block' : 'd-none');
+                item.classList.remove(item.dataset.filter === query ? 'd-none' : 'd-block');
+            });
+        }
+
+        filterBy({
+            newState: state
+        });
+
+        const markSelectedCheckbox = (fieldName) => {
             [].forEach.call(document.querySelectorAll(`[name=${fieldName}]`), function(input) {
-                input.parentElement.classList.toggle('checked')
+                input.parentElement.classList.toggle('checked');
             })
         }
 
-        [].forEach.call(document.querySelectorAll('.programacao-checkbox [name=checkbox-day]'), function(input) {
-            input.addEventListener("click ", function(event) {
-                filterByDay(event.target.value);
-                setSelected(input.name, event.target.value)
+        [].forEach.call(document.querySelectorAll('.programacao-checkbox [name=checkbox-day]'), function(checkbox) {
+            checkbox.addEventListener('change', function() {
+                markSelectedCheckbox(this.name);
+                setState('day', this.value, filterBy);
             });
         });
 
-        [].forEach.call(document.querySelectorAll('.programacao-checkbox [name=checkbox-type]'), function(input) {
-            input.addEventListener("click ", function(event) {
-                setSelected(input.name, event.target.value)
-                filterByType(event.target.value);
-            })
-        })
+        [].forEach.call(document.querySelectorAll('.programacao-checkbox [name=checkbox-type]'), function(checkbox) {
+            checkbox.addEventListener('change', function() {
+                markSelectedCheckbox(this.name);
+                console.log(this.value)
+                setState('type', this.value, filterBy);
+            });
+        });
     </script>
     <!-- after all scripts -->
     <script src="assets/dist/js/global.js "></script>
