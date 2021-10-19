@@ -19,6 +19,9 @@
             text-decoration: none !important;
             text-decoration-line: none!important;
         }
+        .nav-link::before:not(.btn) {
+            background-color: red;
+        }
         .nav-link::before,
         .nav-link.active::before {
             text-decoration: none !important;
