@@ -43,7 +43,7 @@ const onUpdateState = (state) => {
 const $checkboxDay = document.querySelectorAll('[name=checkbox-day]');
 [].forEach.call($checkboxDay, function(checkbox) {
     checkbox.addEventListener("change", function(evt) {
-        markSelectedCheckbox('checkbox-day')
+        markSelectedCheckbox('checkbox-day');
         setState('day', this.value);
     });
 });
@@ -51,7 +51,7 @@ const $checkboxDay = document.querySelectorAll('[name=checkbox-day]');
 const $checkboxType = document.querySelectorAll('[name=checkbox-type]');
 [].forEach.call($checkboxType, function(checkbox) {
     checkbox.addEventListener("change", function(evt) {
-        markSelectedCheckbox('checkbox-type')
+        markSelectedCheckbox('checkbox-type');
         setState('type', this.value);
     });
 });
