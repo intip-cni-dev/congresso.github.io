@@ -116,13 +116,13 @@
                             <button class="nav-link" id="palco-principal-tab" data-bs-toggle="tab" data-bs-target="#palco-principal" type="button" role="tab" aria-controls="palco-principal" aria-selected="true">Palco principal</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="espaco-talks-tab" data-bs-toggle="tab" data-bs-target="#espaco-talks" type="button" role="tab" aria-controls="espaco-talks" aria-selected="false">Espaço talks</button>
+                            <button class="nav-link" id="espaco-talks-tab" data-bs-toggle="tab" data-bs-target="#espaco-talks" type="button" role="tab" aria-controls="espaco-talks" aria-selected="false">Espaço talks</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="cine-inovacao-tab" data-bs-toggle="tab" data-bs-target="#cine-inovacao" type="button" role="tab" aria-controls="cine-inovacao" aria-selected="false">Cine inovação</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="lounge-cni-mei-tab" data-bs-toggle="tab" data-bs-target="#lounge-cni-mei" type="button" role="tab" aria-controls="lounge-cni-mei" aria-selected="false">Lounge CNI/MEI</button>
+                            <button class="nav-link active" id="lounge-cni-mei-tab" data-bs-toggle="tab" data-bs-target="#lounge-cni-mei" type="button" role="tab" aria-controls="lounge-cni-mei" aria-selected="false">Lounge CNI/MEI</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="eco-inovacao-tab" data-bs-toggle="tab" data-bs-target="#eco-inovacao" type="button" role="tab" aria-controls="eco-inovacao" aria-selected="false">Ecossistema de inovação</button>
@@ -789,7 +789,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade show active" id="espaco-talks" role="tabpanel" aria-labelledby="espaco-talks-tab">
+                    <div class="tab-pane fade" id="espaco-talks" role="tabpanel" aria-labelledby="espaco-talks-tab">
                         <div class="row py-5">
                             <div class="col-12 col-lg-6">
                                 <h3 class="fs-40 fw-bold text-yellow">Espaço Talks</h3>
@@ -1420,8 +1420,616 @@
                     <div class="tab-pane fade" id="cine-inovacao" role="tabpanel" aria-labelledby="cine-inovacao-tab">
                         <p class="text-center py-5">Assista à série de documentários inéditos sobre os ecossistemas de inovação do Brasil, EUA, Alemanha, Israel e Itália.</p>
                     </div>
-                    <div class="tab-pane fade" id="lounge-cni-mei" role="tabpanel" aria-labelledby="lounge-cni-mei-tab">
-                        CNI/MEI
+                    <div class="tab-pane fade show active" id="lounge-cni-mei" role="tabpanel" aria-labelledby="lounge-cni-mei-tab">
+                        <div class="row py-5">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="fs-40 fw-bold text-yellow">Lounge CNI/MEI</h3>
+                                <!-- <p>Aqui, você conhece um pouco mais de perto as startups brasileiras em ascensão.</p> -->
+                            </div>
+                            <div class="d-none d-lg-block col-lg-2"></div>
+                            <div class="col-12 col-lg-4 d-block d-lg-flex flex-column">
+                                <a href="#" class="btn btn-primary d-flex d-lg-block">Quero me inscrever</a>
+                                <a href="#" class="btn btn-outline-primary d-flex d-lg-block my-3">Baixe a programação</a>
+                                <p>*Programação sujeita a alterações</p>
+                            </div>
+                        </div>
+                        <!-- Dia 1 -->
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">08:00 - 09:00</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Credenciamento</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">09:00 - 12:10</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Abertura Institucional +Arena Principal + Key note speakers</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">12:30 - 13:40</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Almoço</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">13:40 - 14:40</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Conexão Brasil-Israel</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">14:40 - 14:45</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">14:45 - 15:45</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Conexão Brasil-Países Baixos</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">15:45 - 15:50</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">15:50 - 16:50</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Conexão Brasil-Finlândia</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">16:50 - 16:55</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">16:55 - 17:55</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Conexão Brasil-Suíça</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-1" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">17:55 - 18:25</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Encerramento</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dia 2 -->
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">09:00 - 10:00</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Preparando talentos digitais para o mundo: experiências selecionadas da Ásia-Pacífico</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">10:00 - 10:05</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">10:05 - 11:05</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Conexão Brasil-China</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">11:05 - 11:10</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">10:05 - 11:05</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Conexão Brasil-China</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">11:05 - 11:10</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">11:10 - 12:10</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Conexão Brasil-Suécia</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">12h10-13h20</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Almoço</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">13:20 - 13:50</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Perspectivas Inovadoras para inclusão  </strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">13:50 - 13:55</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">13:55 - 14:15</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Lições aprendidas em inovação aberta em saúde  na pandemia </strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">14:15 - 14:20</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">14:20 - 14:50</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Redefinindo o corporate venture: a experiência da WE Ventures</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">14:50 - 14:55</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">14:55 - 15:25</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">A definir</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">15:25 - 15:30</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">15:30 - 16:00</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Uma visão de futuro em Internet das Coisas Industrial (IIoT)</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">16:00 - 16:05</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">16:05 - 16:35</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Enfrentamento às mudanças climáticas como oportunidade de atração de investimento</strong></strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">16:35-16:40</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong></strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">16:40 - 17:10</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">ESG como vetor de estratégias de inovação nas empresas </strong></strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">17:10 - 17:15</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Transição</strong></strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">17:15 - 17:45</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">A definir</strong></strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
+                            <div class="col-12 pb-4">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">17:45 - 18:00</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Encerramento</strong></strong>
+                                    </div>
+                                    <picture>
+                                        <!-- empty -->
+                                        <div class="programacao-speakers-photos"></div>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="eco-inovacao" role="tabpanel" aria-labelledby="eco-inovacao-tab">
                         <p class="text-center py-5">Faça um passeio virtual e fique por dentro das principais tendências em inovação e tecnologia.</p>
