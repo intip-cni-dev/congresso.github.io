@@ -113,38 +113,38 @@
                 <div class="col-12 pb-2" style="overflow-x: auto; overflow-y: clip;">
                     <ul class="nav nav-tabs justify-content-md-around flex-nowrap" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="arena-principal-tab" data-bs-toggle="tab" data-bs-target="#arena-principal" type="button" role="tab" aria-controls="arena-principal" aria-selected="true">Arena principal</button>
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Arena principal</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="espaco-talks-tab" data-bs-toggle="tab" data-bs-target="#espaco-talks" type="button" role="tab" aria-controls="espaco-talks" aria-selected="false">Espaço talks</button>
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Espaço talks</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="cine-inovacao-tab" data-bs-toggle="tab" data-bs-target="#cine-inovacao" type="button" role="tab" aria-controls="cine-inovacao" aria-selected="false">Cine inovação</button>
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Cine inovação</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="lounge-cni-mei-tab" data-bs-toggle="tab" data-bs-target="#lounge-cni-mei" type="button" role="tab" aria-controls="lounge-cni-mei" aria-selected="false">Lounge CNI/MEI</button>
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Lounge CNI/MEI</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="eco-inovacao-tab" data-bs-toggle="tab" data-bs-target="#eco-inovacao" type="button" role="tab" aria-controls="eco-inovacao" aria-selected="false">Ecossistema de inovação</button>
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Ecossistema de inovação</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="lounge-senai-tab" data-bs-toggle="tab" data-bs-target="#lounge-senai" type="button" role="tab" aria-controls="lounge-senai" aria-selected="false">Lounge SENAI</button>
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Lounge SENAI</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="lunge-sesi-tab" data-bs-toggle="tab" data-bs-target="#lounge-sesi" type="button" role="tab" aria-controls="lounge-sesi" aria-selected="false">Lounge SESI</button>
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Lounge SESI</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="lounge-iel-tab" data-bs-toggle="tab" data-bs-target="#lounge-iel" type="button" role="tab" aria-controls="lounge-iel" aria-selected="false">Lounge IEL</button>
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Lounge IEL</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="lounge-sebrae-tab" data-bs-toggle="tab" data-bs-target="#lounge-sebrae" type="button" role="tab" aria-controls="lounge-sebrae" aria-selected="false">Lounge Sebrae</button>
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Lounge Sebrae</button>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="row">
-                <div class="tab-content">
-                    <div class="tab-pane fade show active" id="arena-principal" role="tabpanel" aria-labelledby="arena-principal-tab">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="row py-5">
                             <div class="col-12 col-lg-6">
                                 <h3 class="fs-40 fw-bold text-yellow">Palco Principal</h3>
@@ -159,7 +159,24 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-12 pb-4 d-none" data-filter data-filter-day="day-1" data-filter-type="virtual">
+                            <div class="col-12 pb-4" data-filter="day=day-1&type=virtual">
+                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
+                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
+                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
+                                        <time class="max-content text-dark fw-600 fs-36">10:00 - 11:00</time>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
+                                        <strong class="text-salmon fw-600 lh-120 fs-32">Inovação que une o mundo</strong>
+                                        <strong class="text-yellow fw-600 fs-24 pt-2">Presidente Robson</strong>
+                                        <p class="pt-2">Evento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes. </p>
+                                    </div>
+                                    <picture>
+                                        <!-- one image -->
+                                        <img src="assets/dist/images/speakers/foto-steve-wozniak.png" class="rounded-circle" width="200">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="col-12 pb-4" data-filter="day=day-2&type=presential">
                                 <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
                                     <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
                                         <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
@@ -175,7 +192,7 @@
                                     </picture>
                                 </div>
                             </div>
-                            <div class="col-12 pb-4 d-none" data-filter data-filter-day="day-1" data-filter-type="virtual">
+                            <div class="col-12 pb-4" data-filter="day=day-1&type=presential">
                                 <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
                                     <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
                                         <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
@@ -191,79 +208,51 @@
                                     </picture>
                                 </div>
                             </div>
-                            <div class="col-12 pb-4 d-none" data-filter data-filter-day="day-1" data-filter-type="virtual">
+                            <div class="col-12 pb-4" data-filter="day=day-1&type=virtual">
                                 <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
                                     <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
                                         <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
-                                        <time class="max-content text-dark fw-600 fs-36">11:00 - 12:00</time>
+                                        <time class="max-content text-dark fw-600 fs-36">12:00 - 13:00</time>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center mx-lg-5">
                                         <strong class="text-salmon fw-600 lh-120 fs-32">Inovação que une o mundo</strong>
-                                        <p class="pt-2">Evento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes.</p>
+                                        <strong class="text-yellow fw-600 fs-24 pt-2">Presidente Robson / Presidente Robson / Presidente Robson / Presidente Robson / Presidente Robson / Presidente Robson</strong>
+                                        <p class="pt-2">Evento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes. </p>
                                     </div>
-                                    <picture>
-                                        <!-- empty -->
-                                        <div class="programacao-speakers-photos"></div>
-                                    </picture>
-                                </div>
-                            </div>
-                            <div class="col-12 pb-4 d-none" data-filter data-filter-day="day-2" data-filter-type="virtual,presential">
-                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
-                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
-                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
-                                        <time class="max-content text-dark fw-600 fs-36">11:00 - 12:00</time>
-                                    </div>
-                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
-                                        <strong class="text-salmon fw-600 lh-120 fs-32">#2 Inovação que une o mundo</strong>
-                                        <p class="pt-2">Evento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes.</p>
-                                    </div>
-                                    <picture>
-                                        <!-- empty -->
-                                        <div class="programacao-speakers-photos"></div>
-                                    </picture>
-                                </div>
-                            </div>
-                            <div class="col-12 pb-4 d-none" data-filter data-filter-day="day-1" data-filter-type="presential">
-                                <div class="d-flex flex-column flex-md-row flex-md-rows bg-light text-dark rounded-default p-3 p-md-5">
-                                    <div class="d-flex flex-rows align-items-center justify-content-start justify-content-md-around">
-                                        <img src="assets/dist/images/icon/clock.svg" width="32" class="me-2 me-md-4">
-                                        <time class="max-content text-dark fw-600 fs-36">11:00 - 12:00</time>
-                                    </div>
-                                    <div class="d-flex flex-column justify-content-center mx-lg-5">
-                                        <strong class="text-salmon fw-600 lh-120 fs-32">#2 Inovação que une o mundo</strong>
-                                        <p class="pt-2">Evento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes simultâneosEvento on-line para mais de 10.000 participantes.</p>
-                                    </div>
-                                    <picture>
-                                        <!-- empty -->
-                                        <div class="programacao-speakers-photos"></div>
+                                    <picture class="d-flex">
+                                        <!-- two or more images -->
+                                        <div class="programacao-speakers-photos">
+                                            <div class="row row-cols-3 row-cols-lg-2 g-2">
+                                                <div class="col">
+                                                    <img src="assets/dist/images/speakers/foto-steve-wozniak.png" class="rounded-circle" style="max-width: 100%;">
+                                                </div>
+                                                <div class="col">
+                                                    <img src="assets/dist/images/speakers/foto-steve-wozniak.png" class="rounded-circle" style="max-width: 100%;">
+                                                </div>
+                                                <div class="col">
+                                                    <img src="assets/dist/images/speakers/foto-steve-wozniak.png" class="rounded-circle" style="max-width: 100%;">
+                                                </div>
+                                                <div class="col">
+                                                    <img src="assets/dist/images/speakers/foto-steve-wozniak.png" class="rounded-circle" style="max-width: 100%;">
+                                                </div>
+                                                <div class="col">
+                                                    <img src="assets/dist/images/speakers/foto-steve-wozniak.png" class="rounded-circle" style="max-width: 100%;">
+                                                </div>
+                                                <div class="col">
+                                                    <img src="assets/dist/images/speakers/foto-steve-wozniak.png" class="rounded-circle" style="max-width: 100%;">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </picture>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="espaco-talks" role="tabpanel" aria-labelledby="espaco-talks-tab">
-                        TALKS
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <!-- no contents-->
                     </div>
-                    <div class="tab-pane fade" id="cine-inovacao" role="tabpanel" aria-labelledby="cine-inovacao-tab">
-                        CINE
-                    </div>
-                    <div class="tab-pane fade" id="lounge-cni-mei" role="tabpanel" aria-labelledby="lounge-cni-mei-tab">
-                        CNI/MEI
-                    </div>
-                    <div class="tab-pane fade" id="eco-inovacao" role="tabpanel" aria-labelledby="eco-inovacao-tab">
-                        ECOSSISTEMA DE INOVAÇÃO
-                    </div>
-                    <div class="tab-pane fade" id="lounge-senai" role="tabpanel" aria-labelledby="lounge-senai-tab">
-                        SENAI
-                    </div>
-                    <div class="tab-pane fade" id="lounge-sesi" role="tabpanel" aria-labelledby="lounge-sesi-tab">
-                        SESI
-                    </div>
-                    <div class="tab-pane fade" id="lounge-iel" role="tabpanel" aria-labelledby="lounge-iel-tab">
-                        IEL
-                    </div>
-                    <div class="tab-pane fade" id="lounge-sebrae" role="tabpanel" aria-labelledby="lounge-sebrae-tab">
-                        Sebrae
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <!-- no contents-->
                     </div>
                 </div>
             </div>
@@ -288,7 +277,56 @@
     <!-- scripts -->
     <script src="assets/dist/js/bootstrap.bundle.min.js "></script>
     <!-- checkbox -->
-    <script src="assets/dist/js/programacao.filter.js"></script>
+    <script>
+        const state = {
+            day: 'day-1',
+            type: 'virtual'
+        }
+
+        const setState = (key, value, callback) => {
+            const oldState = state;
+            state[key] = value;
+            callback && callback({
+                oldState: oldState,
+                newState: state
+            });
+        }
+
+        const filterBy = ({
+            newState
+        }) => {
+            const query = Object.entries(newState).map(e => `${e[0]}=${e[1]}`).join("&");
+            [].forEach.call(document.querySelectorAll('[data-filter]'), function(item) {
+                item.classList.add(item.dataset.filter === query ? 'd-block' : 'd-none');
+                item.classList.remove(item.dataset.filter === query ? 'd-none' : 'd-block');
+            });
+        }
+
+        filterBy({
+            newState: state
+        });
+
+        const markSelectedCheckbox = (fieldName) => {
+            [].forEach.call(document.querySelectorAll(`[name=${fieldName}]`), function(input) {
+                input.parentElement.classList.toggle('checked');
+            })
+        }
+
+        [].forEach.call(document.querySelectorAll('.programacao-checkbox [name=checkbox-day]'), function(checkbox) {
+            checkbox.addEventListener('change', function() {
+                markSelectedCheckbox(this.name);
+                setState('day', this.value, filterBy);
+            });
+        });
+
+        [].forEach.call(document.querySelectorAll('.programacao-checkbox [name=checkbox-type]'), function(checkbox) {
+            checkbox.addEventListener('change', function() {
+                markSelectedCheckbox(this.name);
+                console.log(this.value)
+                setState('type', this.value, filterBy);
+            });
+        });
+    </script>
     <!-- after all scripts -->
     <script src="assets/dist/js/global.js "></script>
 
