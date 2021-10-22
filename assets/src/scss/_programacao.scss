@@ -4,13 +4,20 @@
         font-weight: bold;
         color: #d0d0d0;
         &.checked {
-            background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
-            background: -webkit-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
-            background: -moz-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
-            background: -o-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
-            color: #ff5f6d;
+            // background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+            // background: -webkit-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+            // background: -moz-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+            // background: -o-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+            background: linear-gradient(135deg, #ff5f6d, #ffc371);
+            background: -webkit-linear-gradient(135deg, #ff5f6d, #ffc371);
+            background: -moz-linear-gradient(135deg, #ff5f6d, #ffc371);
+            background: -o-linear-gradient(135deg, #ff5f6d, #ffc371);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            color: #ff5f6d;
+            label {
+                color: #ff5f6d;
+            }
         }
     }
 }
