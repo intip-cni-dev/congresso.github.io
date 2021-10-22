@@ -5,6 +5,10 @@
         color: #d0d0d0;
         &.checked {
             background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+            background: -webkit-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+            background: -moz-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+            background: -o-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+            color: #ff5f6d;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -23,9 +27,6 @@
             font-size: 16px;
             min-width: max-content;
             border: none !important;
-            &:not(.active) {
-                // border-bottom: 2px solid rgba(#989898, 0.3) !important;
-            }
             &.active {
                 border-bottom: 2px solid #ff5f6d !important;
                 color: white !important;
