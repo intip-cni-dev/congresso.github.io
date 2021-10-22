@@ -1,7 +1,7 @@
 (() => {
     const langSufix = (lang) => lang ? `_${lang}` : '';
     const sponsorBarTemplate = (lang) => `
-        <div class="container">
+        <div class="container p-0">
             <div class="row my-4 py-4">
                 <div class="col-12 col-md-6">
                     <h5 class="text-uppercase text-center fw-normal">

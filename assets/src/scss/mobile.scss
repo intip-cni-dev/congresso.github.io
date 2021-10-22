@@ -67,9 +67,13 @@
     .programacao-checkbox {
         width: 100% !important;
         font-size: 30px !important;
-        [for='id-checkbox-type-virtual'],
-        [for='id-checkbox-type-presential'] {
+        .form-check-input {
+            font-size: 24px;
+            margin-top: .7em;
+        }
+        .form-check-label {
             font-size: 24px !important;
+            margin-bottom: 1rem;
         }
     }
     .programacao-items {
