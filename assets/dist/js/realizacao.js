@@ -10,5 +10,9 @@
   };
 
   var $barraRealizacao = document.getElementById("barra-realizacao");
-  $barraRealizacao && $barraRealizacao.insertAdjacentHTML('afterbegin', sponsorBarTemplate($barraRealizacao.dataset.lang));
+
+  if ($barraRealizacao) {
+    var lang = $barraRealizacao.dataset.lang ? $barraRealizacao.dataset.lang.trim() : '';
+    $barraRealizacao && $barraRealizacao.insertAdjacentHTML('afterbegin', sponsorBarTemplate(lang));
+  }
 })();

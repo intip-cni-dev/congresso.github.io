@@ -130,5 +130,9 @@
     `;
 
     const $barraRealizacao = document.getElementById("barra-realizacao");
-    $barraRealizacao && $barraRealizacao.insertAdjacentHTML('afterbegin', sponsorBarTemplate($barraRealizacao.dataset.lang));
+
+    if ($barraRealizacao) {
+        const lang = $barraRealizacao.dataset.lang ? $barraRealizacao.dataset.lang.trim() : '';
+        $barraRealizacao && $barraRealizacao.insertAdjacentHTML('afterbegin', sponsorBarTemplate(lang));
+    }
 })();
