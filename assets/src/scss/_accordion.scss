@@ -19,10 +19,11 @@
         font-size: 23px;
         font-weight: bold;
         font-style: normal;
-        background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
-        background: -webkit-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
-        background: -moz-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
-        background: -o-linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+        background: rgb(255, 95, 109);
+        background: linear-gradient(135deg, rgba(255, 95, 109, 1) 0%, rgba(255, 195, 113, 1) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(255, 95, 109, 1) 0%, rgba(255, 195, 113, 1) 100%);
+        background: -moz-linear-gradient(135deg, rgba(255, 95, 109, 1) 0%, rgba(255, 195, 113, 1) 100%);
+        background: -o-linear-gradient(135deg, rgba(255, 95, 109, 1) 0%, rgba(255, 195, 113, 1) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         &:focus {
